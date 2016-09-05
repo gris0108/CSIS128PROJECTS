@@ -7,9 +7,8 @@ h1{
   text-align: center;
   color: white;
 }
-li{
-  font-size: medium;
-}
+
 a{
   background-color: #CCCCCC;
+  font-size: medium;
 }
