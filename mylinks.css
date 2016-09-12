@@ -12,7 +12,7 @@ ul{
   margin-left: 0;
   padding: 10px;
 }
-a:link{
+a {
     color: red;
     text-decoration: underline;
 }
