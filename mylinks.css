@@ -3,23 +3,23 @@ h1{
   font-family: Times, serif;
   color:white;
 }
-nav ul{
+ul{
   list-style-type: none;
   margin-left: 0;
   padding: 10px;
 }
-nav a:link{
+a:link{
     color: red;
     text-decoration: underline;
 }
-nav a:hover{
+a:hover{
   color: yellow;
   background-color: red;
   text-decoration: none;
   list-style-image: none;
 
 }
-nav a:visited{
+a:visited{
   color: gray;
 }
 body{
