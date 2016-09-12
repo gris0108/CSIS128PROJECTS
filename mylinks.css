@@ -3,21 +3,23 @@ h1{
   font-family: Times, serif;
   color:white;
 }
-a {
+nav ul{
+  list-style-type: none;
+  margin-left: 0;
+  padding: 10px;
+}
+nav a:link{
     color: red;
     text-decoration: underline;
 }
-ul li{
-  list-style-image: none;
-}
-a:hover{
+nav a:hover{
   color: yellow;
   background-color: red;
   text-decoration: none;
   list-style-image: none;
 
 }
-a:visited{
+nav a:visited{
   color: gray;
 }
 body{
