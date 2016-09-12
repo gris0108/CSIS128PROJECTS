@@ -3,6 +3,10 @@ h1{
   font-family: Times, serif;
   color:white;
 }
+body{
+  background-color: black;
+  font-size:15px;
+}
 ul{
   list-style-type: none;
   margin-left: 0;
@@ -12,6 +16,9 @@ a:link{
     color: red;
     text-decoration: underline;
 }
+a:visited{
+  color: gray;
+}
 a:hover{
   color: yellow;
   background-color: red;
@@ -19,10 +26,4 @@ a:hover{
   list-style-image: none;
 
 }
-a:visited{
-  color: gray;
-}
-body{
-  background-color: black;
-  font-size:15px;
-}
+
