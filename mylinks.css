@@ -1,7 +1,7 @@
 h1{
   text-align: center;
   font-family: Times, serif;
-  color:white;
+  color: white;
 }
 body{
   background-color: black;
@@ -13,15 +13,15 @@ ul{
   padding: 10px;
 }
 a:link{
-    color: red;
+    color: #E71414;
     text-decoration: underline;
 }
 a:visited{
-  color: gray;
+  color: #87877E;
 }
 a:hover{
-  color: yellow;
-  background-color: red;
+  color: #FFFF00;
+  background-color: #E71414;
   text-decoration: none;
   list-style-image: none;
 
