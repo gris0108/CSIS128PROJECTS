@@ -13,7 +13,7 @@ ul{
   padding: 10px;
 }
 a:link{
-    color: #E71414;
+    color: red;
     text-decoration: underline;
 }
 a:visited{
