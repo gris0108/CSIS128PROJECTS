@@ -2,7 +2,7 @@ h1{
   text-align: center;
   font-family: Times, serif;
 }
-ul li:link{
+ul li a:link{
     color: red;
 }
 li{
@@ -13,7 +13,7 @@ ul li a:hover{
   background-color: red;
   text-decoration: none;
 }
-ul li:visited{
+ul li a:visited{
   color: gray;
 }
 body{
