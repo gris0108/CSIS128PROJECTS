@@ -1,29 +1,23 @@
 h1{
   text-align: center;
   font-family: Times, serif;
-  color: white;
+}
+ul li:link{
+    color: red;
+}
+li{
+  list-style-image: none;
+}
+ul li a:hover{
+  color: yellow;
+  background-color: red;
+  text-decoration: none;
+}
+ul li:visited{
+  color: gray;
 }
 body{
   background-color: black;
+  color: white;
   font-size:15px;
 }
-ul{
-  list-style-type: none;
-  margin-left: 0;
-  padding: 10px;
-}
-li {
-    color: red;
-    text-decoration: underline;
-}
-a:visited{
-  color: #87877E;
-}
-a:hover{
-  color: #FFFF00;
-  background-color: #E71414;
-  text-decoration: none;
-  list-style-image: none;
-
-}
-
