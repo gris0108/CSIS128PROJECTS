@@ -1,0 +1,14 @@
+table {
+  width:90%;
+  height:50%;
+  text-align:center;
+  border: 1px;
+
+}
+tr {
+  text-align: left;
+}
+
+tr td:first-child{
+  font-weight: bold;
+}
