@@ -14,9 +14,9 @@ alert("E-mail Address field cannot be empty.");
 return false;
 }
  //Email validation
- if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(document.forms[0].EmailAddress.value))
   {
-    return (true)
+    return(true)
   }
   else{
     alert("You have entered an invalid email address!")
