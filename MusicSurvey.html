@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Survey</title>
+  <link type="text/css" rel="styleshet" href="MusicSurvey.html"/>
+</head>
+<body>
+  <h1>Music Survey</h1>
+  <form name="survey" method="post" id="survey" action="http://www.markmurtha.com/csis128/readform.asp">
+  Name:<input type="text" name="name" id="name"><br>
+  Email:<input type="email" name="userEmail" id="email"><br>
+  <fieldset>
+    <legend>Types of Music</legend>
+  Select your favorite types of music: <br>
+  <label><input type="checkbox" name="RandR" id="RandR" value="yes">
+  Rock and Roll </label><br>
+  <label><input type="checkbox" name="HipHop" id="HipHop" value="yes">
+  Hip Hop</label> <br>
+  <label><input type="checkbox" name="Alt" id="Alt" value="yes">
+  Alternative</label> <br>
+  <label><input type="checkbox" name="Counry" id="Country" value="yes">
+  Country</label> <br>
+  <label><input type="checkbox" name="Pop" id="Pop" value="yes">
+  Pop</label>
+</fieldset><br>
+<fieldset>
+  <legend>Frequency</legend>
+  Select how often you purchase music:<br>
+  <label><input type="radio" name="frequency" id="frequenyA" value="AlltheTime">
+  All the time!</label><br>
+  <label><input type="radio" name="frequency" id="frequencyO" value="Occasionaly">
+  Occasionaly</label><br>
+  <label><input type="radio" name="frequency" id="frequencyN" value="Never">
+  Never</label>
+</fieldset><br>
+  <select size="3" name="location" id="location">
+    <option>Locations where you listen to music:</option>
+      <option value ="Home">At home relaxing</option>
+      <option value="Exericsing">During Exercise</option>
+      <option value="Friends">With Friends</option>
+      <option value="Alone">When I'm alone</option>
+  </select>
+  <br>
+  What role does music play in your life?<br>
+  <textarea name="role" id="role" cols="60" rows="3">
+    Enter the role here!
+  </textarea>
+  <br>
+  <input type="submit">
+  <input type="reset">
+</form>
+<footer>Natan Garcia | s1422365@student.mcckc.edu</footer>
+</body>
+</html>
