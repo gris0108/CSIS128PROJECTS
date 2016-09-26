@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Form</title>
+<script type="text/javascript">
+<script>
+function validateForm() {
+if (document.forms[0].Name.value == "") {
+alert("Name field cannot be empty.");
+return false;
+}
+if (document.forms[0].EmailAddress.value == "") {
+alert("E-mail Address field cannot be empty.");
+return false;
+}
+ //Email validation
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+  {
+    return (true)
+  }
+  else{
+    alert("You have entered an invalid email address!")
+    return (false)
+  }
+alert("Name and age are valid.");
+return true;
+}
+
+</script>
+</head>
+<body>
+  <h1 style="text-align: center;">My Form</h1>
+<form <form method="post" action="http://www.markmurtha.com/csis128/readform.asp" onsubmit="return validateForm();">
+  Name: <input type="text" name="Name" id="Name">
+  <br>
+  E-Mail Address: <input type="text" name="EmailAddress" id="EmailAddress">
+  <br>
+  <input type="submit" value="Sign up Now.">
+</form>
+</body>
+</html>
