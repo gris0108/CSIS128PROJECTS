@@ -1,0 +1,19 @@
+table{
+  width: 100%;
+  border: 1px solid #ccccff;
+  color: blue;
+}
+th{
+  font-weight: bolder;
+}
+h1{
+  text-align: center;
+}
+body{
+  background-color: #f5f5f5;
+}
+.provider{
+  text-align: left;
+  font-weight: bold;
+
+}
