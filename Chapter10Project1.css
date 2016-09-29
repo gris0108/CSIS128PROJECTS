@@ -4,7 +4,11 @@ table{
   color: blue;
 }
 th{
+  border: 1px solid #ccccff;
   font-weight: bolder;
+}
+td{
+  border: 1px solid #ccccff;
 }
 h1{
   text-align: center;
