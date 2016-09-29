@@ -1,13 +1,14 @@
 table{
-  width: 100%;
+  width: 90%;
   border: 1px solid #ccccff;
-  color: blue;
+  color: #0000a0;
 }
 th{
   border: 1px solid #ccccff;
   font-weight: bolder;
 }
 td{
+  text-align: center;
   border: 1px solid #ccccff;
 }
 h1{
@@ -15,9 +16,5 @@ h1{
 }
 body{
   background-color: #f5f5f5;
-}
-.provider{
-  text-align: left;
-  font-weight: bold;
-
+  font-family: impact,fantasy;
 }
