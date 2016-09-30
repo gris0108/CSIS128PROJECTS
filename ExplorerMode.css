@@ -3,6 +3,16 @@ body{
   font-family: Florence;
 }
 .introduction{
+  font-size: 70%;
   background-color: black;
   color: white;
+}
+.continue{
+  visibility: hidden;
+}
+.coward{
+  visibility: hidden;
+}
+.startup{
+  font-size: 70%;
 }

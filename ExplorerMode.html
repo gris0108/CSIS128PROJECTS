@@ -6,20 +6,24 @@
 	<script src="jquery-3.1.1.min.js"></script>
 </head>
 <body>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('.introduction').ready(function(){
-			var time = 3000;
-			$('h1').fadeIn(time);
-			$('button').fadeIn(time);
-	});
-});
-</script>
-<h1 class="introduction">A darkness aproaches</h1>
-<p>What shall you do?</p> <br>
+	<h1 class="startup">Click anywhere to begin</h1>
+	<h1 class="introduction">A darkness aproaches</h1>
+	<p class="introduction">What shall you do?</p> <br>
 
-<button type="button" class="Continue" id="Continue" onclick= "">Continue</button>
-<button type="button" class="Coward" id="Coward" onclick="">Hide</button>
+	<button type="button" class="continue">Continue</button>
+	<button type="button" class="coward">Hide</button>
+
+<script>
+$(document).ready(function(){
+	$('body').click(function(){
+					var time = 3000;
+					$('.introduction').fadeIn(time);
+					$('.continue','.coward').fadeIn(time);
+			});
+	});
+</script>
+
+
 
 </body>
 </html>
