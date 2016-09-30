@@ -8,20 +8,22 @@
 	<script src="jquery-3.1.1.min.js"></script>
 </head>
 <body>
-	<script>
-	$(document).ready(function(){
-		$('body').click(function(){
-						$('.introduction').removeClass(body);
-						$('.continue','.coward').removeClass(body);
-				});
-		});
-	</script>
+
 	<h1 class="startup">Click anywhere to begin</h1>
 	<h1 class="introduction">A darkness aproaches</h1>
 	<p class="introduction">What shall you do?</p> <br>
 
 	<button type="button" class="continue">Continue</button>
 	<button type="button" class="coward">Hide</button>
+
+	<script>
+	$(document).ready(function(){
+		$('body').click(function(){
+						$('.introduction').removeClass('introduction');
+						$('.continue','.coward').removeClass('continue','coward');
+				});
+		});
+	</script>
 
 
 
