@@ -16,8 +16,8 @@ body{
   display: none;
 }
 .startup{
-  margin: auto, auto, auto, auto;
+  padding: 10px;
   display: block;
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
 }

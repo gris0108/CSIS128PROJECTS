@@ -10,10 +10,11 @@
 </head>
 <body>
 
+	<div>
 	<h1 class="startup">Click anywhere to begin</h1>
 	<h1 class="introduction">A darkness aproaches</h1>
 	<p class="introduction">What shall you do?</p> <br>
-
+</div>
 	<button type="button" class="continue">Continue</button>
 	<button type="button" class="coward">Hide</button>
 
@@ -21,7 +22,8 @@
 	$(document).ready(function(){
 		$('body').click(function(){
 						$('.introduction').removeClass('introduction');
-						$('.continue , .coward').removeClass('continue, coward');
+						$('.continue').removeClass('continue');
+						$('.coward').removeClass('coward');
 				});
 		});
 	</script>
