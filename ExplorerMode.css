@@ -13,10 +13,11 @@ body{
   display: none;
 }
 .coward{
-  visibility: none;
+  display: none;
 }
 .startup{
+  margin: auto, auto, auto, auto;
   display: block;
   text-align: center;
-  font-size: 70%;
+  font-size: 2em;
 }
