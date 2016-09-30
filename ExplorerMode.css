@@ -1,17 +1,20 @@
 body{
   text-align: center;
   font-family: Florence;
+  display: block;
 }
 .introduction{
+  display: none;
+  margin: auto, auto, auto, auto;
   font-size: 70%;
   background-color: black;
   color: white;
 }
 .continue{
-  visibility: hidden;
+  display: none;
 }
 .coward{
-  visibility: hidden;
+  visibility: none;
 }
 .startup{
   font-size: 70%;
