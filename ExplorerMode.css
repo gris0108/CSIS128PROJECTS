@@ -17,5 +17,7 @@ body{
   visibility: none;
 }
 .startup{
+  display: block;
+  text-align: center;
   font-size: 70%;
 }

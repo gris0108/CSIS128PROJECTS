@@ -3,17 +3,19 @@
 <html>
 <head>
 	<link type="text/css" rel="stylesheet" href="finalprojet.css"/>
-	<script src="jquery-3.1.1.min.js">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script src="jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<script>
 	$(document).ready(function(){
-		$(document).click(function(){
-						var time = 3000;
-						$('.introduction').fadeIn(time);
-						$('.continue','.coward').fadeIn(time);
+		$('body').click(function(){
+						$('.introduction').removeClass(body);
+						$('.continue','.coward').removeClass(body);
 				});
 		});
 	</script>
-</head>
-<body>
 	<h1 class="startup">Click anywhere to begin</h1>
 	<h1 class="introduction">A darkness aproaches</h1>
 	<p class="introduction">What shall you do?</p> <br>
