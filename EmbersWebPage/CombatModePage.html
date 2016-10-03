@@ -19,18 +19,18 @@
   	</ul>
   </div>
   <script>
-  Cookies.get('enemyid', {path: '/ExplorerMode.html'});
+  Cookies.get('enemyid');
   switch (enemyid) {
     case : 1
     {
-      $('enemy').append("<img class="enemy" src="Black-Jelly.png" width="80" height="80"><br>");
+      $('.enemyappear').append("<img class="enemy" src="Black-Jelly.png" width="80" height="80"><br>");
 
     }break;
 
     default:
     {
       alert('NO enemy to fight');
-      location.href="CombatMode.html";
+      location.href="ExplorerMode.html";
     }
 
   }

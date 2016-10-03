@@ -37,3 +37,8 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+.enemyappear{
+  position:fixed;
+  height: auto;
+  width: auto;
+}
