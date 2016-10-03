@@ -23,14 +23,21 @@ body{
   font-size: 3em;
 }
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
 }
+
+li {
+    float: left;
+}
+
 li a {
     display: block;
-    color: black;
+    padding: 8px;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
