@@ -10,7 +10,7 @@ ul {
 li a {
     display: block;
     color: white;
-    text-align: center;
+    text-align: black;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -21,4 +21,5 @@ footer{
 }
 p{
   text-align: center;
+  margin-top:80;
 }
