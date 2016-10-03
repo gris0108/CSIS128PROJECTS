@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<!--You are looking at the source code....STOP -<- !-->
+<!--You are looking at the source code....STOP CHEATER -<- !-->
 <html>
 <head>
 	<title>ExplorerMode</title>
 	<link type="text/css" rel="stylesheet" href="ExplorerMode.css"/>
+	<!-- IMPORTS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 	<script src="jquery-3.1.1.min.js"></script>
+	<script src="js.cookies.js"></script>
 </head>
 <body>
 
-	<div>
+<div id=menu>
+	<ul>
+		<li><a href="ExplorerMode.html">Explorer</a></li>
+		<li><a href="Inventory.html">Inventory</a></li>
+		<li><a href="Settings.html">Settings</a></li>
+	</ul>
+</div>
+<div>
 	<h1 class="startup">Click here to begin</h1>
 	<h1 class="introduction">A darkness aproaches</h1>
 	<p class="introduction">What shall you do?</p> <br>
 </div>
-	<input type="button" onclick="location.href='CombatModePage.html';" class="continue" value="Continue" />
+
+	<input type="submit" onclick="location.href='CombatModePage.html';" class="continue" value="Continue" />
 	<input type="button" onclick="alert('Darkness consumes you'); location.reload();" class="hide" value="Hide" />
 
 	<script>
@@ -25,16 +35,15 @@
 						$('.continue').removeClass('continue');
 						$('.hide').removeClass('hide');
 				});
+		$('continue').click(function(){
+						Cookies.set('enemyid', '1');
 		});
+	});
 
 	</script>
 
-	<script>
-	var 
-	</script>
 
 
-
-
+<footer>Natan Garcia | s1422365@student.mcckc.edu</footer>
 </body>
 </html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CombatPage</title>
+  <link type="text/css" rel="stylesheet" href="CombatPage.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script src="jquery-3.1.1.min.js"></script>
+  <script src="js.cookies.js"></script>
+</head>
+<body>
+  <div id=menu>
+  	<ul>
+  		<li><a href="ExplorerMode.html">Explorer</a></li>
+  		<li><a href="Inventory.html">Inventory</a></li>
+  		<li><a href="Settings.html">Settings</a></li>
+  	</ul>
+  </div>
+  <script>
+  Cookies.get('enemyid');
+  switch (enemyid) {
+    case : 1
+    {
+      $('enemy').append("<img class="enemy" src="Black-Jelly.png" width="80" height="80"><br>");
+
+    }break;
+
+    default:
+    {
+      alert('NO enemy to fight');
+      location.href="CombatMode.html";
+    }
+
+  }
+
+
+  </script>
+  <h1>An enemy has approached</h1>
+  <div class='enemyappear'></div>
+
+</body>
+</html>

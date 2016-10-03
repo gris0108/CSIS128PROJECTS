@@ -1,0 +1,24 @@
+h1{
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer{
+  font-size: 0.5em;
+  text-align: left;
+}
+p{
+  text-align: center;
+}
