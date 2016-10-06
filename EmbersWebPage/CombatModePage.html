@@ -17,7 +17,9 @@
   	</ul>
   </div>
   <script>
-  document.getElementById("enemyappear").innerHTML = localStorage.enemyid;
+var enemyid = localStorage.getItem("enemyid");
+$(function(){
+ loadEnemy(){
   switch (enemyid) {
     case  "1":
     {
@@ -32,6 +34,7 @@
     }
 
   }
+ }});
 
 
   </script>
