@@ -18,23 +18,22 @@
   </div>
   <script>
 var enemyid = localStorage.getItem("enemyid");
-$(function(){
- loadEnemy(){
-  switch (enemyid) {
+var main = function(){
+	switch (enemyid) {
     case  "1":
     {
       $('#enemyappear').append("<img src='BlackJelly.png' width='80' height='80'><br>");
 
-    }break;
+    }
+	break;
 
     default:
     {
       alert('NO enemy to fight');
       location.href="ExplorerMode.html";
     }
+};
 
-  }
- }});
 
 
   </script>
