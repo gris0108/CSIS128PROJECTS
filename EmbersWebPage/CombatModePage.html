@@ -16,12 +16,14 @@
   		<li><a href="About.html">About</a></li>
   	</ul>
   </div>
+  <h1>An enemy has approached</h1>
+  <div id='enemyappear'>
+  </div>
   <script>
 var enemyid = localStorage.getItem("enemyid");
-$('#enemyappear').prepend('<img src="BlackJelly.png" width="80" height="80"/>');
 if (enemyid === "1")
 {
-
+  $('#enemyappear').prepend('<img src="BlackJelly.png" width="80" height="80"/>');
 }
 /*else if (enemyid === "2")
 {
@@ -45,10 +47,7 @@ else
   location.href="ExplorerMode.html";
 }
   </script>
-  <h1>An enemy has approached</h1>
-  <div id='enemyappear'>
-  </div>
-<form
+
 </div>
 </body>
 </html>
