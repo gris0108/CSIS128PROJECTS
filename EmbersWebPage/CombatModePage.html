@@ -14,38 +14,51 @@
   		<li><a href="Inventory.html">Inventory</a></li>
       <li><a href="CombatModePage.html">Combat</a></li>
   		<li><a href="About.html">About</a></li>
+      <li><a href="Saves.html">Saves</a></li>
+      <li><a href="Enemies.html">Enemies</a></li>
   	</ul>
   </div>
   <h1>An enemy has approached</h1>
   <div id='enemyappear'>
+    <h3 id="EnemyName">Enemy Name:</h3>
   </div>
   <script>
+var enemyname = localStorage.getItem("enemyname");
 var enemyid = localStorage.getItem("enemyid");
+//Enemy
 if (enemyid === "1")
 {
   $('#enemyappear').prepend('<img src="BlackJelly.png" width="80" height="80"/>');
 }
-/*else if (enemyid === "2")
+else if (enemyid === "2")
 {
-
+  $('#enemyappear').prepend('<img src="alien.svg" width="80" height="80"/>');
 }
 else if (enemyid === "3")
 {
-
+  $('#enemyappear').prepend('<img src="Pterodactil.svg" width="80" height="80"/>');
 }
 else if (enemyid === "4")
 {
-
+  $('#enemyappear').prepend('<img src="toffeeguy.svg" width="80" height="80"/>');
 }
 else if (enemyid === "5")
 {
-
-}*/
+ $('#enemyappear').prepend('<img src="trollface.svg" width="80" height="80"/>');
+}
 else
 {
   alert('NO enemy to fight');
   location.href="ExplorerMode.html";
 }
+// Your Attack Damage
+var attackdamage;
+var Weapon = localStorage.getItem("Weapon");
+if (Weapon === "1")
+{
+  attackdamage = 1;
+}
+
   </script>
 
 </div>

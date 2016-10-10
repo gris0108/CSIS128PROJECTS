@@ -15,12 +15,14 @@
 		<li><a href="Inventory.html">Inventory</a></li>
 		<li><a href="CombatModePage.html">Combat</a></li>
 		<li><a href="About.html">About</a></li>
+		<li><a href="Saves.html">Saves</a></li>
+		<li><a href="Enemies.html">Enemies</a></li>
 	</ul>
 </div>
 <div>
 	<h1 class="startup">Click here to begin</h1>
 	<h1 class="introduction">A darkness aproaches</h1>
-	<p class="introduction">What shall you do?</p> <br>
+	<p class="introduction">What shall you do? Your only weapons is your hands</p> <br>
 </div>
 
 	<input type="submit" onclick="location.href='CombatModePage.html';" class="continue" value="Continue" />
@@ -35,15 +37,37 @@
 				});
 		$('.continue').click(function(){
 					localStorage.setItem("enemyid", "1");
-					localStorage.setItem("power", "5"); 
+					localStorage.setItem("enemyname", "Black Jelly");
+					localStorage.setItem("power", "5");
+					localStorage.setItem("Weapon", "1");
+		});
+
+		$('.continue2').click(function(){
+					localStorage.setItem("enemyid", "2");
+					localStorage.setItem("enemyname", "Dat Alien");
+					localStorage.setItem("power", "10");
+		});
+		$('.continue3').click(function(){
+					localStorage.setItem("enemyid", "3");
+					ocalStorage.setItem("enemyname", "Pterodactil");
+					localStorage.setItem("power", "50");
+		});
+		$('.continue4').click(function(){
+					localStorage.setItem("enemyid", "4");
+					localStorage.setItem("enemyname", "Toffee Guy");
+					localStorage.setItem("power", "100");
+		});
+		$('.continue5').click(function(){
+					localStorage.setItem("enemyid", "5");
+					localStorage.setItem("enemyname", "King Troll");
+					localStorage.setItem("power", "300");
 		});
 	});
-
 	</script>
 
 
 <br><br><br>
-<footer>Natan Garcia | s1422365@student.mcckc.edu</footer>
+<footer>	Natan Garcia | <a href="mailto:s1422365@student.mcckc.edu">s1422365@student.mcckc.edu<a></footer>
 </div>
 </body>
 </html>
