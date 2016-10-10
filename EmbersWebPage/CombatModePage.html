@@ -18,28 +18,35 @@
   </div>
   <script>
 var enemyid = localStorage.getItem("enemyid");
-var main = function(){
-switch (enemyid) {
-    case  "1":
-    {
-      $('#enemyappear').append("<img src='BlackJelly.png' width='80' height='80'><br>");
+if (enemyid === "1")
+{
+  $('#enemyappear').append("<img src='BlackJelly.png' width='80' height='80'><br>");
+}
+else if (enemyid === "2")
+{
 
-    }
-	break;
+}
+else if (enemyid === "3")
+{
 
-    default:
-    {
-      alert('NO enemy to fight');
-      location.href="ExplorerMode.html";
-    }
-		};
-			};
+}
+else if (enemyid === "4")
+{
 
+}
+else if (enemyid === "5")
+{
 
-
+}
+else
+{
+  alert('NO enemy to fight');
+  location.href="ExplorerMode.html";
+}
   </script>
   <h1>An enemy has approached</h1>
-  <div id='enemyappear'></div>
+  <div id='enemyappear'>
+  </div>
 </div>
 </body>
 </html>
