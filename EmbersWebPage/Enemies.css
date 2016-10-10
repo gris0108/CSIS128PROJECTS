@@ -34,20 +34,19 @@ footer{
   margin-top:80;
 }
 thead{
-  font-size:2.5em;
+  font-size:2em;
   text-align: center;
 }
 table {
     width: 90%;
     border: 1px solid black;
     color: black;
+    text-align: center;
     align-items: stretch;
 }
 tr td:last-child {
-  text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
 }
-tr:first-child{
-  text-align: center;
-  font-size: 2em;
+tr{
+  font-size:1em;
 }
