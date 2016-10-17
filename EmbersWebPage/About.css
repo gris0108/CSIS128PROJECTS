@@ -6,7 +6,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #dddddd;
+    background-color: black;
 }
 
 li {
@@ -23,7 +23,7 @@ li a {
 }
 .overlay{
    opacity:0.8;
-   background-color:#ccc;
+   background-color:black;
    position:fixed;
    width:100%;
    height:100%;
