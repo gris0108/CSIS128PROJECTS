@@ -20,7 +20,7 @@
   </div>
   <h1>An enemy has approached</h1>
   <div id='enemyappear'>
-    <h3 id="EnemyName">Enemy Name:</h3>
+    <h3 id="enemyName">Enemy Name:</h3>
   </div>
   <script>
 var enemyname = localStorage.getItem("enemyname");
@@ -29,22 +29,27 @@ var enemyid = localStorage.getItem("enemyid");
 if (enemyid === "1")
 {
   $('#enemyappear').prepend('<img src="BlackJelly.png" width="80" height="80"/>');
+  $('#enemyName').prepend('<p>Black Jelly</p>');
 }
 else if (enemyid === "2")
 {
   $('#enemyappear').prepend('<img src="alien.svg" width="80" height="80"/>');
+  $('#enemyName').prepend('<p>Dat Alien</p>');
 }
 else if (enemyid === "3")
 {
   $('#enemyappear').prepend('<img src="Pterodactil.svg" width="80" height="80"/>');
+  $('#enemyName').prepend('<p>Pterodactil</p>');
 }
 else if (enemyid === "4")
 {
   $('#enemyappear').prepend('<img src="toffeeguy.svg" width="80" height="80"/>');
+  $('#enemyName').prepend('<p>Toffee Guy</p>');
 }
 else if (enemyid === "5")
 {
  $('#enemyappear').prepend('<img src="trollface.svg" width="80" height="80"/>');
+ $('#enemyName').prepend('<p>King Troll</p>');
 }
 else
 {
